@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Clock</title>
+    <!--------------custom css-------------->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!--------------clock-------------->
+    <section>
+        <div class="clock-container">
+            <h1>World Clock</h1>
+            <div class="clock">
+                <h2 id="current-time" class="time">Current Time: <span id="time"></span></h2>
+                <label for="timezone">Choose a country :</label>
+                <select id="timezone">
+                    <option value="local">Local Time</option>
+                    <option value="America/New_York">New York (EST)</option>
+                    <option value="Europe/London">London (GMT)</option>
+                    <option value="Asia/Tokyo">Tokyo (JST)</option>
+                    <option value="Australia/Sydney">Sydney (AEDT)</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------custom js-------------->
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
